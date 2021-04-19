@@ -1,0 +1,301 @@
+﻿<html>
+<head>
+
+	<title>宠物之家</title>
+	
+<style>
+	body{background:#FFDAB9;}
+	
+	li{float:left;}
+	li a{display:block;width:120px;background-color:#FFA500;font-weight:bold;}
+	li a:hover{color:#FF0000;font-size:18px;}
+	.lb{color:#C71585;}
+	.fl{color:#FF1493;}
+	
+	/*导航条*/
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: #FFDAB9;
+	margin: 0;
+}
+.bars{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bars li{
+	list-style-type:none;
+	float:left;
+}
+.bars .h{
+	display:block;
+	width:188px;
+	height:55px;
+	font-size:24px;
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	line-height:55px;
+	}
+.bars .h:hover{
+	background-color: #FF4500;
+	color: white;
+	font-size: 27px;
+}
+	
+/*footer*/
+ .hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 6px;
+}
+ .button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+.button:hover {
+	background-color: #FF7F00;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFA54F;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	background-color: #FFA54F;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+</style>
+</head>
+
+<body>
+<!--导航条-->
+<div>
+<table  align="right" bgcolor="#FF8C00"><A id="top"></A>
+<tr style="font-size:14px;bgcolor:red;height:25px;">
+  <td width="700px">地区：<select style="font-size:14px;color:#008080;"><option>合肥</option><option>上海</option><option>北京</option><option>青岛</option></select></td>
+  <td width="150px">我的购物车</td>
+  <td width="150px">收藏夹</td>
+  <td width="70px"><a href="../login/login.html">登录</a></td>
+  <td width="100px"><a href="../regist/register.html">注册</a></td>
+  <td width="150px">联系客服</td>
+</tr>
+</table>
+</div>
+
+<!--导航条-->
+<div class="bars" style="position:absolute;width:1200px;height:50px;top:135px;left:100px">
+  <ul class="bar">
+           <li><a class="h" href="index.html">首页</a></li>
+           <li><a  class="h" href="../maogoutiandi/maogoutiandi.html" target="_blank">猫狗天地</a></li>
+           <li><a class="h" href="../petmall/mall1.html" target="_blank">宠物商城</a></li>
+           <li><a class="h" href="../communicate/communication.html" target="_blank">猫狗论坛</a></li>
+           <li><a class="h" href="../contact/contact.html" target="_blank">联系我们</a></li>
+           <li><a class="h" href="../about/about.html" target="_blank">关于我们</a></li>
+      </ul>
+</div>
+
+<!--搜索栏-->
+<form>
+	<div style="position:absolute;width:360px;height:20px;top:60px;left:700px">
+		<table>
+			<tr>
+   				<td><select name="thing" style="width:60px; height:30px;font-size:15px; color:#7B68EE;"><option>商品</option><option>宠物</option><option>店铺</option></select></td>
+    			<td><input type="text" style="width:300px; height:30px;" ></td>
+    			<td><button type="button" style="width:60px; height:30px;font-size:14px;font-family:SimHei;color:#D2691E;">搜索</td>
+    		</tr>
+		</table>
+	</div>
+</form>
+
+<!--logoy-->
+<div style="position: absolute; width: 178px; height: 72px; top: 45px; left: 44px">
+	<img src="img/logoy.png" width="179" height="88">
+</div>
+
+<!--logo-->
+<div style="position: absolute; width: 360px; height: 20px; top: 45px; left: 281px">
+	<img src="img/logo.png">
+</div>
+
+<!--小导航栏-->
+<!--<div style="position:absolute;width:1000px;height:50px;top:135px;left:100px">
+	<ul>
+   		<li><a href="">狗狗</a></li>
+    	<li><a href="">猫猫</a></li>
+    	<li><a href="petmall/mall1.html" target="_blank">商城</a></li>
+    	<li><a href="communicate/communication.html" target="_blank">社区</a></li>
+    	<li><a href="about/about.html" target="_blank">关于我们</a></li>
+    	<li><a href="contact/contact.html" target="_blank">联系我们</a></li>
+	</ul>
+</div>-->
+
+<!--左导航栏-->
+<div style="position:absolute;width:200px;height:500px;top:220px;left:20px;">
+	<table align="center" cellspacing="3" style="border:2px #FF4500 solid;" width="250px" height="400px" bgcolor="#FFF0F5">
+		<tr class="lb"><td style="font-weight:bold;">狗狗</td></tr>
+		<tr class="fl"><td></td><td>哈士奇</td><td>泰迪</td><td>阿拉斯加</td></tr>
+		<tr class="fl"><td></td><td>金毛</td><td>柯基</td><td>吉娃娃</td></tr>
+		<tr class="lb"><td style="font-weight:bold;">猫猫</td></tr>
+		<tr class="fl"><td></td><td>布偶猫</td><td>折耳猫</td><td>波斯猫</td></tr>
+		<tr class="fl"><td></td><td>短毛猫</td><td>森林猫</td><td>无毛猫</td></tr>
+		<tr class="lb"><td style="font-weight:bold;">商城</td></tr>
+		<tr class="fl"><td></td><td>主粮</td><td>零食</td><td>医疗</td></tr>
+		<tr class="fl"><td></td><td>日用</td><td>玩具</td><td>美容</td></tr>
+		<tr class="lb"><td style="font-weight:bold;">社区</td></tr>
+		<tr class="fl"><td></td><td>领养</td><td>救助</td><td>喂养</td></tr>
+	</table>
+</div>
+
+<!--中间的图片展示-->
+<div id="butong_net_left" style="position:absolute;overflow:hidden;width:700px;height:500px;top:220px;left:300px;">
+	<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td id="butong_net_left1" valign="top" align="center">
+				<table cellpadding="2" cellspacing="0" border="0">
+					<tr align="center">
+						<td><img src="img/1.jpg"></td>
+						<td><img src="img/3.jpg"></td>
+						<td><img src="img/2.jpg"></td>
+						<td><img src="img/4.jpg"></td>
+					</tr>
+				</table>
+			</td>
+			<td id="butong_net_left2" valign="top"></td>
+		</tr>
+	</table>
+</div>
+
+<!--JavaScript-->
+<script>
+var speed=15//速度数值越大速度越慢
+butong_net_left2.innerHTML=butong_net_left1.innerHTML
+function Marquee3(){
+	if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0){
+		butong_net_left.scrollLeft-=butong_net_left1.offsetWidth;
+	}else{
+		butong_net_left.scrollLeft++;
+	}
+}
+	
+var MyMar3=setInterval(Marquee3,speed)
+butong_net_left.onmouseover=function() {
+	clearInterval(MyMar3);
+}
+butong_net_left.onmouseout=function() {
+	MyMar3=setInterval(Marquee3,speed);
+}
+</script>
+
+<!--右侧图片-->
+<div>
+	<div style="position:absolute;height:20px;top:220px;left:1030px">
+		<a href="http://shop.boqii.com/zhuanti/624.html" target="_blank"><img src="img/a.jpg"></a>
+	</div>
+	<div style="position:absolute;height:20px;top:320px;left:1030px">
+		<a href="http://shop.boqii.com/zhuanti/626.html" target="_blank"><img src="img/b.jpg"></a>
+	</div>
+	<div style="position:absolute;height:20px;top:430px;left:1030px">
+		<a href="http://shop.boqii.com/brand/blist-0-932-0-0-p0-0.html" target="_blank"><img src="img/c.jpg"></a>
+	</div>
+</div>
+
+<!--热销商品-->
+<div style="position:absolute;width:150px;height:20px;top:630px;left:70px;font-size:30px;font-weight:bolder;font-family:SimHei;color:#D2691E;">
+		热销商品
+</div>
+<div style="position: absolute; width: 360px; height: 20px; top: 690px; left: 194px">
+<table style="border:2px #FF4500 solid;">
+	<tr>
+   		<td><a href="http://shop.boqii.com/product-2849.html" target="_blank"><img src="img/q.png"></a></td>
+   		<td><a href="http://shop.boqii.com/product-485.html" target="_blank"><img src="img/w.png"></a></td>
+   		<td><a href="http://shop.boqii.com/product-10751.html" target="_blank"><img src="img/e.jpg"></a></td>
+   		<td><a href="http://shop.boqii.com/product-14175.html" target="_blank"><img src="img/r.jpg"></a></td>
+   		<td><a href="http://shop.boqii.com/product-8342.html" target="_blank"><img src="img/t.jpg"></a></td>
+   	</tr>
+</table>
+</div>
+
+<!--热门评价-->
+<div style="position:absolute;width:150px;height:20px;top:920px;left:70px;font-size:30px;font-weight:bolder;font-family:SimHei;color:#D2691E;">
+    热门评价
+</div>
+<div style="position: absolute; width: 360px; height: 20px; top: 980px; left: 180px">
+	<table style="border:2px #FF4500 solid;">
+		<tr>
+   			<td><a href="http://shop.boqii.com/product-22466.html#002" target="_blank"><img src="img/y.png"></a></td>
+   			<td><a href="http://shop.boqii.com/product-17450.html#002" target="_blank"><img src="img/u.png"></a></td>
+   		</tr>
+		<tr>
+			<td><a href="http://shop.boqii.com/product-739.html#002" target="_blank"><img src="img/i.png"></a></td>
+   			<td><a href="http://shop.boqii.com/product-19635.html#002" target="_blank"><img src="img/o.png"></a></td>
+   		</tr>
+	</table>
+</div>
+
+<!--footer-->
+<!--<div style="position:absolute;height:20px;top:1150px;left:300px">
+	<table  align="left">
+		<tr style="font-size:13.5px;">
+			<td width="130px"></td><td width="260px">电子商务版权许可证</td><td width="200px">版权保护投诉指引</td><td></td>
+		</tr>
+	</table>
+	<table  align="left">
+		<tr style="font-size:13.5px;">
+  			<td width="200px">联系方式：1234567890</td>
+  			<td width="230px">安徽省合肥市猫狗之家公司</td>
+  			<td width="90px">关于我们</td>
+  			<td width="160px">联系我们:<a href="mailto:1234567@qq.com">12345@qq.com</a></td>
+		</tr>
+	</table>
+</div>-->
+<!--<footer class="contact">
+    <p class="hero_header">可以写一些东西吧</p>
+    <div class="button">联系我们，可以链接到关于我们那里</div>
+ </footer>-->
+
+  <!-- Footer Section -->
+<div style="position:absolute;top:1180px;width:1020px;left:175px;">
+  <footer id="contact">
+    <p class="hero_header">选择我们，你放心</p>
+    <div class="button">联系我们</div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>HAPPY</strong></div>
+  </div>
+</div>
+<!--返回顶部-->
+<div style="position:fixed;width:100px;height:20px;top:550px;left:1200px;">
+    <a href="#top">返回顶部
+</div>
+
+</body>
+</html>

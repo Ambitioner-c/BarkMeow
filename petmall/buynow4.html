@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>猫狗星球——欢迎购买</title>
+<link href="css/buynow.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+	 function buy(){
+		var number=document.getElementById("buynum").value;
+		var num=parseInt(number);
+		var money=559*num;
+		alert("恭喜您，购买了"+number+"件商品，共计"+money+"元");
+	}
+</script>
+</head>
+
+<body>
+<div class="bars">
+      <ul class="bar">
+           <li><a class="h" href="">首页</a></li>
+           <li><a  class="h" href="">狗狗天地</a></li>
+           <li><a class="h" href="">猫猫天地</a></li>
+           <li><a class="h" href="">宠物商城</a></li>
+           <li><a class="h" href="">猫狗论坛</a></li>
+           <li><a class="h" href="">会员中心</a></li>
+           <li><a class="h" href="">售后中心</a></li>
+           <li><a class="h" href="">注册/登录</a></li>
+      </ul>
+</div>
+<div class="container"> 
+ <header class="header">
+    <h3 class="logo">比瑞吉 萨摩耶幼犬粮天然狗粮12kg  </h3>
+  </header>
+    <section class="intro">
+    <div class="column">
+      <h3> <b>萨摩耶幼犬粮天然狗粮12kg  </b></h3>
+      <img src="4.PNG"  class="profile"> </div>
+    <div class="column">
+      <p class="introduce">幼犬快速生长需要营养！比瑞吉萨摩耶幼犬粮，专为萨摩耶幼犬定制的天然膳食。精选鲣鱼、田园农家鸡和豌豆，富含优质蛋白质，味道鲜美易消化；增效复合维生素，帮助幼犬建立自身的免疫抵抗力；拥有上等Ω3&Ω6，增加皮毛柔软度与光泽，健康皮肤。  </p>  
+      <p class="price">星球统一价：¥559.00</p>
+      <p class="gmsl" >购买数量: &nbsp;&nbsp;&nbsp;<input name="buynum" id="buynum" type="text" maxlength="2" size="4" value="1" />
+                   </p>
+                    
+                           
+      <p><form><input type="button" class="goumai" value="购买" onClick="buy()"></form></p>
+    </div>
+  </section>
+   <div class="gallery">
+     <div class="title" >
+     	<img src="01.jpg"></img>
+     </div>
+     <div class="tu">
+       <img src="sh4/1.PNG">
+    </div>
+
+    <div class="tu">
+       <img src="sh4/2.PNG">
+    </div>
+    <div class="tu">
+       <img src="sh4/3.PNG">
+    </div>
+    <div class="tu">
+       <img src="sh4/4.PNG">
+    </div>
+     <div class="tu">
+       <img src="sh4/5.PNG">
+    </div>
+     <div class="tu">
+       <img src="sh4/6.PNG">
+    </div>
+	</div>
+    <div>
+     <footer id="contact">
+    <p class="hero_header">猫狗星球，请关爱生命</p>
+    <div class="button">联系我们</div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2018 - <strong>HAPPY</strong></div>
+</div>
+</body>
+</html>

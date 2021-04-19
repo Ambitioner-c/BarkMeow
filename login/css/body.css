@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+	font-size: 12px;
+	background-image: url(../img/beijing.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}

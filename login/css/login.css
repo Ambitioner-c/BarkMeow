@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/*登录*/
+.login-in{
+    width:300px;
+    height:400px;
+    top:150px;
+    left:200px;
+    position:absolute;
+    border-radius:25px;
+    text-align:center;
+    overflow:hidden;
+	background-image:url(../img/mao.png);
+	}
+.login{
+	position:absolute;
+	width:260px;
+	height:100px;
+	top:100px;
+	right: 10px;
+	}
+.tl{
+	font-size:24px;
+	font-weight:bold;
+	color:#FF9224;
+	margin-left: 15px;
+	}
+.nr{
+	font-size:17px;
+	font-weight:bold;
+	}
+.bl{
+	font-size:13px;
+	}

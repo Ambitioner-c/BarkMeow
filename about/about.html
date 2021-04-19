@@ -1,0 +1,165 @@
+﻿<html>
+<head>
+<title>关于我们</title>
+<style type="text/css"> 
+    body{background:#FFDAB9;} 
+    *{margin: 0;padding: 0;}  
+    ul,li{list-style: none;}  
+        .box{width: 900px;margin: 4px auto;line-height:35px;}  
+        .hide{display: none;font-size:20px;}  
+        #head {height: 25px;border-bottom: 2px solid #FF4500;font-size:18px;}  
+          
+        #head li{float: left;width: 80px;height: 24px;line-height: 24px;  
+            margin: 0 4px;text-align: center;border: 2px solid #FF4500;  
+            border-bottom: none;background-color: #FFE4B5;cursor: pointer;}  
+        #box2{border:2px #FF4500 solid;border-top: none;padding: 10px;font-size:20px;}  
+        #head .working{position:relative;height:25px;margin-bottom:-1px;background-color: #FFA07A;font-size:16px;}  
+
+/*footer*/
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0;
+	letter-spacing: 6px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+.button:hover {
+	background-color: #FF7F00;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFA54F;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	background-color: #FFA54F;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+}
+</style> 
+<script type="text/javascript">  
+        window.onload=function()  
+        {  
+            var hNode=document.getElementsByTagName("li");  
+            var info=document.getElementById("box2").getElementsByTagName("div");  
+            for(var i=0;i<hNode.length;i++)  
+            {  
+                hNode[i].index=i;  
+                hNode[i].onmousemove=function()  
+                {  
+                    for(var j=0;j<hNode.length;j++){  
+                        hNode[j].className="";  
+                        info[j].className="hide"  
+                    }  
+                    hNode[this.index].className="working";  
+                    info[this.index].className="";  
+                }  
+            }  
+        }       
+         
+    </script> 
+</head>
+<body>
+<div>
+<table  align="right" bgcolor="#FF8C00"><A id="top"></A>
+<tr style="font-size:14px;bgcolor:red;height:25px">
+  <td width="700px">地区：合肥市</td>
+  <td width="150px">我的购物车</td>
+  <td width="150px">收藏夹</td>
+  <td width="70px"><a href="../login/login.html">登录</a></td>
+  <td width="100px"><a href="../regist/register.html">注册</a></td>
+  <td width="150px">联系客服</td>
+</tr>
+</table>
+</div>
+<div align="right" style="position:absolute;width:240px;height:20px;top:40px;">
+<img src="../logoy.png">
+</div>
+<div style="position:absolute;top:35px;left:290px;font-size:50px;font-weight:bolder;font-family:SimHei;color:#D2691E;">
+    <img src="gywmbt.png">
+</div>
+<div style="position:absolute;height:20px;top:130px;left:590px;font-size:35px;font-weight:bolder;font-family:DFKai-SB;color:#D2691E;">
+    ——细致入微 关爱它们的生活
+</div>
+<div class="box" align="left" style="position:absolute;top:200px;left:200px;">      
+    <ul id="head">  
+        <li class="working">公司简介</li>  
+        <li>企业文化</li>  
+        <li>招兵买马</li>  
+    </ul>  
+    <div id="box2">  
+        <div>京东于2004年正式涉足电商领域。2016年，京东集团市场交易额达到9392亿元*，净收入达到2601亿元，同比增长43%。京东是中国收入规模最大的互联网企业。2016年7月，京东入榜2016《财富》全球500强，成为中国首家、唯一入选的互联网企业。<br>  
+            2014年5月，京东集团在美国纳斯达克证券交易所正式挂牌上市，是中国第一个成功赴美上市的大型综合型电商平台，并成功跻身全球前十大互联网公司排行榜，2015年7月，京东凭借高成长性入选纳斯达克100指数和纳斯达克100平均加权指数。<br>  
+            京东致力于成为一家为社会创造最大价值的公司。经过13年砥砺前行，京东在商业领域一次又一次突破创新，取得了跨越式发展。与此同时，京东不忘初心，积极履行企业社会责任，在促进就业、提升社会效率、反哺实体经济等方面不断为社会做出贡献。<br>  
+            主营的电商业务京东商城已成长为中国最大的自营式电商企业，保持了远快于行业平均增速的增长，依据目前的发展速度，2021年前将成为中国最大的B2C电商平台。京东商城致力于打造一站式综合购物平台，服务中国亿万家庭，3C、家电、消费品、服饰、家居家装、生鲜和新通路（B2B）全品类领航发力，满足消费者多元化需求。<br>  
+        </div>  
+        <div class="hide">  
+            40平出租屋大改造 美少女的混搭小窝<br>  
+            经典清新简欧爱家 90平老房焕发新生<br>  
+            新中式的酷色温情 66平撞色活泼家居<br>  
+            瓷砖就像选好老婆 卫生间烟道的设计<br>  
+        </div>  
+        <div class="hide">  
+            通州豪华3居260万 二环稀缺2居250w甩<br>  
+            西3环通透2居290万 130万2居限量抢购<br>  
+            黄城根小学学区仅260万 121平70万抛!<br>  
+            独家别墅280万 苏州桥2居优惠价248万<br>  
+        </div>  
+    </div>     
+</div> 
+
+<!--<div style="position:absolute;height:40px;top:800px;left:350px;">
+<table  align="left">
+<tr style="font-size:13.5px;">
+<td width="130px"></td><td width="260px">电子商务版权许可证</td><td width="200px">版权保护投诉指引</td><td></td>
+</tr></table>
+<p>
+<table  align="left">
+<tr style="font-size:13.5px;">
+  <td width="200px">联系方式：1234567890</td>
+  <td width="230px">安徽省合肥市猫狗之家公司</td>
+  <td width="90px">关于我们</td>
+  <td width="160px">联系我们:<a href="mailto:1234567@qq.com">12345@qq.com</a></td>
+</tr>
+</table>
+</div>-->
+  <!-- Footer Section -->
+<div style="position:absolute;top:750px;width:1020px;left:175px;">
+  <footer id="contact">
+    <p class="hero_header">选择我们，你放心</p>
+    <div class="button">联系我们</div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>HAPPY</strong></div>
+  </div>
+</div>
+</body>
+</html>

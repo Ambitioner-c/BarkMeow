@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>猫狗星球——欢迎购买</title>
+<link href="css/buynow.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+	 function buy(){
+		var number=document.getElementById("buynum").value;
+		var num=parseInt(number);
+		var money=8*num;
+		alert("恭喜您，购买了"+number+"件商品，共计"+money+"元");
+	}
+</script>
+</head>
+
+<body>
+<div class="bars">
+      <ul class="bar">
+           <li><a class="h" href="">首页</a></li>
+           <li><a  class="h" href="">狗狗天地</a></li>
+           <li><a class="h" href="">猫猫天地</a></li>
+           <li><a class="h" href="">宠物商城</a></li>
+           <li><a class="h" href="">猫狗论坛</a></li>
+           <li><a class="h" href="">会员中心</a></li>
+           <li><a class="h" href="">售后中心</a></li>
+           <li><a class="h" href="">注册/登录</a></li>
+      </ul>
+</div>
+<div class="container"> 
+ <header class="header">
+    <h3 class="logo">卫塔卡夫 猫咪鸡肉小片50g 猫零食  </h3>
+  </header>
+    <section class="intro">
+    <div class="column">
+      <h3> <b>猫咪鸡肉小片50g 猫零食    </b></h3>
+      <img src="6.PNG"  class="profile"> </div>
+    <div class="column">
+      <p class="introduce">卫塔卡夫-猫小片嚼劲十足，有益于祛除牙垢；低脂肪，高蛋白，富含维生素和矿物质，保持健康活力，是猫咪挚爱的天然健康小食。  </p>  
+      <p class="price">星球统一价：¥8.00</p>
+      <p class="gmsl" >购买数量: &nbsp;&nbsp;&nbsp;<input name="buynum" id="buynum" type="text" maxlength="2" size="4" value="1" />
+                   </p>
+                    
+                           
+      <p><form><input type="button" class="goumai" value="购买" onClick="buy()"></form></p>
+    </div>
+  </section>
+   <div class="gallery">
+     <div class="title" >
+     	<img src="01.jpg"></img>
+     </div>
+     <div class="tu">
+       <img src="sh6/1.PNG">
+    </div>
+
+    <div class="tu">
+       <img src="sh6/2.PNG">
+    </div>
+    <div class="tu">
+       <img src="sh6/3.PNG">
+    </div>
+ 
+	</div>
+    <div>
+     <footer id="contact">
+    <p class="hero_header">猫狗星球，请关爱生命</p>
+    <div class="button">联系我们</div>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2018 - <strong>HAPPY</strong></div>
+</div>
+</body>
+</html>
+

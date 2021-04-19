@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*footer*/
+	.footer{
+		width: 1350px;
+		height: 128px;
+		background: #f34a2c;
+		background-size: cover;
+	}

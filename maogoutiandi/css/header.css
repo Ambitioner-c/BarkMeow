@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*header*/
+	.header_1{
+		width: 1350px;
+		height: 28px;
+		background: #f34a2c;
+		background-size: cover;
+	}
+	.header_2{
+		width: 1056px;
+		height: 125px;
+		align-items: center;
+		background:#FFFFFF;
+		border: solid 1px #B8B8B8;
+		margin-left: 146px;
+	}
+	.logo{
+		height: 75px;
+		margin-left: 45px;
+		margin-top: 25px;
+	}
+	
+	/*导航*/
+	.bar_div_1{
+		list-style-type: none;
+		margin-left: 86px;
+	}
+	.bar_div_1 .bar_li{
+		width: 125px;
+		float: left;
+		text-align: center;
+	}
+	.bar_div_1 .bar_a{
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+	.bar_div_2{
+	list-style-type: none;
+	margin-right: 146px;
+	margin-left: 0px;
+	}
+	.bar_div_2 .bar_li{
+		width: 125px;
+		float: right;
+		text-align: center;
+	}
+	.bar_div_2 .bar_a{
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+	.header a {
+		font-size: 15px;
+		ont-size: 16px;
+   	 	margin-left: 30px;
+   	 	color: #555;
+    	text-decoration: none;
+}
+	.header a:hover{
+		font-size: 18px;
+	}

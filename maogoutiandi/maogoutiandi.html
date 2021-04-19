@@ -1,0 +1,114 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<!--css-->
+<link rel="stylesheet" href="css/body.css"/>
+<link rel="stylesheet" href="css/header.css"/>
+<link rel="stylesheet" href="css/content.css"/>
+<link rel="stylesheet" href="css/footer.css"/>
+
+<!--javascript-->
+<script type="text/javascript" src="javascript/onClick.js"></script>
+</head>
+
+<body>
+<audio autoplay loop src="audio/goujiao.mp3"></audio>
+<div class="header"> 
+	<div class="header_1">
+		<div class="header_1_left">
+			<ul class="bar_div_1">
+			  <li class="bar_li"><a class="bar_a" href="index.html" target="_self">首页</a></li>
+			  <li class="bar_li"><a class="bar_a" href=""  target="_blank">商品</a></li>
+			  <li class="bar_li"><a class="bar_a" href=""  target="_blank">购物车</a></li>	
+			</ul>
+		</div>
+		<div class="header_1_right">
+		  <ul class="bar_div_2">
+				<li class="bar_li"><a class="bar_a" href="../login/login.html" target="_blank">登录</a></li>
+				<li class="bar_li"><a class="bar_a" href=""  target="_blank">关于我们</a></li>
+				<li class="bar_li"><a class="bar_a" href=""  target="_blank">个人中心</a></li>
+			</ul>
+		</div>
+	</div>
+  <div class="header_2">
+		<img class="logo" src="../logoy.png" alt="logo">
+	</div>
+</div>
+
+<div class="content">
+  <table class="table_1" cellpadding="0px" cellspacing="0px">
+		<tr>
+		  <td colspan="4">
+ 				<div class="DOG"><img src="img/DOG_logo.png" alt="GOD" width="119" height="44"></div>
+		  </td>
+	  	</tr>
+	  	<tr>
+			<td>
+				<div>
+					<img src="img/left.png" alt="img_left" width="46" class="img_left" onClick="table_1_img_left_onclick()">
+				</div>
+			</td>
+			<td>
+				<div>
+					<img id="img_bg" src="img/gou1.jpg" alt="比熊犬" onClick="img_bg_onclick()">
+				</div>
+			</td>
+			<td>
+				<div>
+					<img src="img/right.png" alt="img_right" width="46" class="img_right" onClick="table_1_img_right_onclick()">
+				</div>
+			</td>
+			<td>
+				<div>
+					<a href=""><img src="img/bixiong.jpg" alt="比熊犬" width="333" id="img_ct"></a>
+				</div>
+				<div>
+					<a class="read_more" href="" onClick="read_more()">了解更多</a>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<table class="table_2" cellpadding="0px" cellspacing="0px">
+		<tr>
+		  <td colspan="4">
+ 				<div class="CAT"><img src="img/CAT_logo.png" alt="CAT" width="119" height="44"></div>
+		  </td>
+	  	</tr>
+	  	<tr>
+	  	<td width="341">
+				<div style="margin-left: 131px">
+					<img src="img/buoumao.jpg" alt="布偶猫" width="333px" id="img_ct">
+				</div>
+				<div>
+					<a class="read_more" href="">了解更多</a>
+				</div>
+			</td>
+			<td width="71">
+				<div>
+					<img src="img/left.png" alt="img_left" width="46px" class="img_left" onClick="table_2_img_left_onclick()">
+				</div>
+			</td>
+			<td width="624">
+				<div>
+					<img id="img_bg" src="img/mao1.jpg" alt="布偶猫" onClick="img_bg_onclick()">
+				</div>
+			</td>
+			<td width="50">
+				<div>
+					<img src="img/right.png" alt="img_right" width="46" class="img_right" onClick="table_2_img_right_onclick()">
+				</div>
+			</td>
+			
+		</tr>
+	</table>
+</div>
+
+<div class="footer">
+	<div>
+		
+	</div>
+</div>
+</body>
+</html>

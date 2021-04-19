@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*content*/
+	.img_left{
+		cursor: pointer;  
+        transition: all 0.6s;
+	}
+	.img_left:hover{
+        transform: scale(1.2);
+	}
+	.img_right{
+		cursor: pointer;  
+        transition: all 0.6s;
+	}
+	.img_right:hover{
+        transform: scale(1.2);
+	}
+
+	/*table_1*/
+	.table_1 tda {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+ .DOG img {
+	left: 674px;
+	margin-left: 616px;
+	}
+	.table_1 td div .img_left {
+	margin-left: 131px;
+	}
+	.table_1 td div #img_bg {
+	margin-left: 0px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-right: 0px;
+	border-radius: 25px;
+	}
+	.table_1 .read_more {
+		border: 1px solid #fdb903;
+   		border-radius: 30px;
+    	color: #fdb903;
+    	font-size: 12px;
+    	margin: 14px 125px 0;
+    	padding: 10px 16px;
+    	display: inline-block;
+    	text-transform: uppercase;
+	}
+	.table_1 .read_more:hover{
+		background-color: #fdb903;
+		color: aliceblue;
+	}
+	
+	/*table_2*/
+	.table_2 td .CAT img {
+	left: 674px;
+	margin-left: 616px;
+	}
+	.table_2 td div .img_left {
+	margin-left: 5px;
+	}
+	.table_2 td div #img_bg {
+	margin-left: 0px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-right: 0px;
+	border-radius: 25px;
+	}
+	.table_2 .read_more {
+	border: 1px solid #fdb903;
+	border-radius: 30px;
+	color: #fdb903;
+	font-size: 12px;
+	margin-top: 14px;
+	margin-right: 125px;
+	margin-left: 253px;
+	margin-bottom: 0;
+	padding: 10px 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	}
+	.table_2 .read_more:hover{
+		background-color: #fdb903;
+		color: aliceblue;
+	}
